@@ -29,10 +29,21 @@ This project delivers an end-to-end financial loan analysis report designed to e
 ### Page 3: Loan Details Grid
 > *A granular table view providing borrower-level details, loan grades, loan terms, and specific repayment statuses.*
 ![Loan Details](Screenshot%202026-10-24%20200937.png)
-## 🔍 SQL Queries & Documentation
-* The full database queries, validation checks, and data aggregation scripts are documented in the uploaded `SQL_Queries & Results - Financial Loan_Analysis.docx` file in this repository.
 
----
+## 🔍 SQL Queries & Documentation
+The full database queries and validation results are documented in the uploaded `SQL_Queries & Results - Financial Loan_Analysis.docx` file in this repository.
+
+<details>
+<summary><b>Click to expand sample SQL query (KPI Extraction)</b></summary>
+
+```sql
+-- Total Funded Amount vs Total Received Amount
+SELECT 
+    SUM(loan_amount) AS Total_Funded_Amount,
+    SUM(total_payment) AS Total_Amount_Received,
+    AVG(int_rate) * 100 AS Avg_Interest_Rate,
+    AVG(dti) * 100 AS Avg_DTI
+FROM financial_loan_data;
 
 ## 🚀 How to View This Project
 1. **Download the `.pbix` file** (`Financial Loan Dashboard.pbix`) from this repository.
