@@ -46,6 +46,8 @@ SELECT
     AVG(int_rate) * 100 AS Avg_Interest_Rate,
     AVG(dti) * 100 AS Avg_DTI
 FROM financial_loan_data;
+```
+</details>
 
 ---
 
