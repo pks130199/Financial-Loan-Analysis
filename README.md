@@ -44,6 +44,8 @@ SELECT
     AVG(dti) * 100 AS Avg_DTI
 FROM financial_loan_data;
 
-## 🚀 How to View This Project
+---
+
+### 🚀 How to View This Project
 1. **Download the `.pbix` file** (`Financial Loan Dashboard.pbix`) from this repository.
 2. Open it in **Power BI Desktop** to interact with the fully functioning data model and dashboards locally.
