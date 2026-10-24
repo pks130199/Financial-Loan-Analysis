@@ -28,8 +28,11 @@ This project delivers an end-to-end financial loan analysis report designed to e
 
 ### Page 3: Loan Details Grid
 > *A granular table view providing borrower-level details, loan grades, loan terms, and specific repayment statuses.*
-![Loan Details](Screenshot%202026-10-24%20200937.png
-> ## 🔍 SQL Queries & Documentation
+![Loan Details](Screenshot%202026-10-24%20200937.png)
+
+---
+
+ ## 🔍 SQL Queries & Documentation
 The full database queries and validation results are documented in the uploaded `SQL_Queries & Results - Financial Loan_Analysis.docx` file in this repository.
 
 <details>
@@ -46,6 +49,6 @@ FROM financial_loan_data;
 
 ---
 
-### 🚀 How to View This Project
+## 🚀 How to View This Project
 1. **Download the `.pbix` file** (`Financial Loan Dashboard.pbix`) from this repository.
 2. Open it in **Power BI Desktop** to interact with the fully functioning data model and dashboards locally.
