@@ -14,24 +14,21 @@ This project delivers an end-to-end financial loan analysis report designed to e
 
 ## 📊 Dashboard Showcase
 
-### Page 1: Executive Overview
-> *High-level summary of total loan applications, funded amounts, total received amounts, average interest rates, and DTI.*
-![Executive Overview](Screenshot%202026-10-24%20200743.png)
+### Page 1: Executive Summary
+> *High-level KPIs including total loan applications, funded amounts, total received amounts, interest rates, and Good vs. Bad loan breakdown.*
+![Executive Summary](Screenshot%202026-10-24%20200743.png)
 
 ---
 
-### Page 2: Loan Performance & Risk Analysis
-> *Deep-dive metrics distinguishing 'Good Loans' from 'Bad Loans', analyzing loan status breakdowns (Current, Fully Paid, Charged Off).*
-![Performance Analysis](Screenshot%202026-10-24%20200937.png)
+### Page 2: Borrower Demographics & Regional Trends (Overview)
+> *Geographic distribution of loans across US states, monthly loan application trends, homeownership status, and employment length breakdown.*
+![Overview Trends](Screenshot%202026-10-24%20201614.png)
 
 ---
 
-### Page 3: Borrower Demographics & Regional Trends
-> *Geographic distribution of loans by state, employment length analysis, homeownership impact, and loan purpose breakdown.*
-![Demographics & Trends](Screenshot%202026-10-24%20201614.png)
-
----
-
+### Page 3: Loan Details Grid
+> *A granular table view providing borrower-level details, loan grades, loan terms, and specific repayment statuses.*
+![Loan Details](Screenshot%202026-10-24%20200937.png)
 ## 🔍 SQL Queries & Documentation
 * The full database queries, validation checks, and data aggregation scripts are documented in the uploaded `SQL_Queries & Results - Financial Loan_Analysis.docx` file in this repository.
 
